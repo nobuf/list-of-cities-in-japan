@@ -1,0 +1,23 @@
+version: '3'
+services:
+  spreadsheet-builder:
+    build: .
+    volumes:
+      - data:/data
+  app:
+    image: node:8.1-alpine
+    volumes:
+      - .:/app:cached
+      - data:/data
+    networks:
+      - langlinks
+      - default
+    environment:
+      LANGLINKS_SERVER_ENDPOINT: http://langlinks-server:8080
+    command: sh /app/run.sh
+
+volumes:
+  data:
+networks:
+  langlinks:
+    external: true

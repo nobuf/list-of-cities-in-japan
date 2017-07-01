@@ -1,0 +1,23 @@
+{
+  "name": "list-of-cities-in-japan",
+  "version": "0.0.1",
+  "description": "A script to build a list of cities in Japan in CSV",
+  "author": "Nobu Funaki <nobu.funaki@gmail.com>",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "csv": "^1.1.1",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
