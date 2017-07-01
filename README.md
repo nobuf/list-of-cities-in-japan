@@ -39,3 +39,11 @@ ls -l build
 - `city_en` — Name in English. It comes from Wikipedia data via [langlinks-server](https://github.com/nobuf/langlinks-server). It sometimes includes the prefecture name like "Hakodate, Hokkaido", but can also be just "Otaru" without Hokkaido.
 - `city_ja` — Name in Japanese.
 - `special_district_ja` — [Some big cities](https://en.wikipedia.org/wiki/Cities_designated_by_government_ordinance_of_Japan) have special districts ([特別区](https://ja.wikipedia.org/wiki/%E7%89%B9%E5%88%A5%E5%8C%BA)) within the city.
+
+## Contributing
+
+If you have any ideas let @nobuf know by opening an issue. Pull requests are always welcome.
+
+## License
+
+MIT
