@@ -28,9 +28,9 @@ ls -l build
 ### prefectures.csv
 
 - `id` — 5 digits code that represents the prefecture
-- prefecture_id — 2 digits version of `id`
-- prefecture_en — Name in English
-- prefecture_ja — Name in Japanese
+- `prefecture_id` — 2 digits version of `id`
+- `prefecture_en` — Name in English
+- `prefecture_ja` — Name in Japanese
 
 ### cities_in_japan_2016.csv
 
