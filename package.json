@@ -8,16 +8,16 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "csv": "^1.1.1",
-    "request": "^2.81.0",
-    "request-promise-native": "^1.0.4"
+    "csv": "^1.2.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
   },
   "devDependencies": {
-    "eslint": "^4.3.0",
+    "eslint": "^4.19.1",
     "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
   }
 }
