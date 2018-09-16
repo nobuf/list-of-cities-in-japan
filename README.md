@@ -6,7 +6,10 @@ A script that generates a list of cities/towns in Japan based on [都道府県�
 
 ```shell
 docker --version
-Docker version 17.06.0-ce, build 02c1d87
+Docker version 18.06.1-ce, build e68fc7a
+
+docker-compose --version
+docker-compose version 1.22.0, build f46880f
 ```
 
 ```shell

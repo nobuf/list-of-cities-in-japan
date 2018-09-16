@@ -1,4 +1,5 @@
 #!/bin/sh
+cd /app && npm install
 echo "id,prefecture_id,prefecture_en,prefecture_ja" > /app/build/prefectures.csv
 node /app/prefecture.js /data/regular_cities.csv >> /app/build/prefectures.csv
 wc -l /app/build/prefectures.csv

@@ -1,25 +1,22 @@
 FROM debian:jessie
 
-RUN apt-get update
-RUN apt-get install -y libreoffice
-RUN apt-get install -y curl
-RUN apt-get install -y python python-pip
-
-RUN pip install xlsx2csv
-
+RUN apt-get update \
+    && apt-get install -y libreoffice \
+    && apt-get install -y curl \
+    && apt-get install -y python python-pip \
+    && pip install xlsx2csv
 
 # 都道府県コード及び市区町村コード
 # 平成28年10月10日現在
 # http://www.soumu.go.jp/denshijiti/code.html
 # (No English page available)
-RUN curl -O http://www.soumu.go.jp/main_content/000442937.xls
-
-RUN libreoffice --headless \
-    --convert-to xlsx \
-    ./000442937.xls
-
-RUN mkdir /data
-RUN xlsx2csv --sheet 1 000442937.xlsx /tmp/regular_cities.csv
-# Skip the first 5 lines (kind of header information)
-RUN tail -n +6 /tmp/regular_cities.csv > /data/regular_cities.csv
-RUN xlsx2csv --sheet 2 000442937.xlsx /data/shitei_toshi.csv
+#
+# `tail -n +6` means skipping the first 5 lines (kind of header information)
+RUN curl -o target.xls http://www.soumu.go.jp/main_content/000562730.xls \
+    && libreoffice --headless \
+        --convert-to xlsx \
+        ./target.xls \
+    && mkdir /data \
+    && xlsx2csv --sheet 1 target.xlsx /tmp/regular_cities.csv \
+    && tail -n +6 /tmp/regular_cities.csv > /data/regular_cities.csv \
+    && xlsx2csv --sheet 2 target.xlsx /data/shitei_toshi.csv
