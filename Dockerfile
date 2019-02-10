@@ -1,18 +1,17 @@
 FROM debian:jessie
 
 RUN apt-get update \
-    && apt-get install -y libreoffice \
-    && apt-get install -y curl \
-    && apt-get install -y python python-pip \
+    && apt-get install -y libreoffice curl python python-pip \
+    && apt-get clean \
     && pip install xlsx2csv
 
 # 都道府県コード及び市区町村コード
-# 平成28年10月10日現在
+# 平成30年10月1日現在
 # http://www.soumu.go.jp/denshijiti/code.html
 # (No English page available)
 #
 # `tail -n +6` means skipping the first 5 lines (kind of header information)
-RUN curl -o target.xls http://www.soumu.go.jp/main_content/000562730.xls \
+RUN curl -o target.xls http://www.soumu.go.jp/main_content/000577357.xls \
     && libreoffice --headless \
         --convert-to xlsx \
         ./target.xls \
