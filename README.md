@@ -1,15 +1,15 @@
 # List of Cities in Japan
 
-A script that generates a list of cities/towns in Japan based on the official [都道府県コード及び市区町村コード](http://www.soumu.go.jp/denshijiti/code.html) version 2018/10/1. It includes English names.
+A script that generates a list of cities/towns in Japan based on the official [都道府県コード及び市区町村コード](http://www.soumu.go.jp/denshijiti/code.html) version 2019/05/01. It includes English names.
 
 ## Build
 
 ```shell
 docker --version
-Docker version 18.09.1, build 4c52b90
+Docker version 19.03.1, build 74b1e89
 
 docker-compose --version
-docker-compose version 1.23.2, build 1110ad01
+docker-compose version 1.24.1, build 4667896b
 ```
 
 ```shell
@@ -25,7 +25,7 @@ ls -l build
 ## Download
 
 - [build/prefectures.csv](build/prefectures.csv)
-- [build/cities_in_japan_2018.csv](build/cities_in_japan_2018.csv)
+- [build/cities_in_japan_2019.csv](build/cities_in_japan_2019.csv)
 
 ## Column Reference
 
