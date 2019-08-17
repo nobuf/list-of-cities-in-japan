@@ -6,12 +6,12 @@ RUN apt-get update \
     && pip install xlsx2csv
 
 # 都道府県コード及び市区町村コード
-# 平成30年10月1日現在
+# 令和元年5月1日現在
 # http://www.soumu.go.jp/denshijiti/code.html
 # (No English page available)
 #
 # `tail -n +6` means skipping the first 5 lines (kind of header information)
-RUN curl -o target.xls http://www.soumu.go.jp/main_content/000577357.xls \
+RUN curl -o target.xls http://www.soumu.go.jp/main_content/000618153.xls \
     && libreoffice --headless \
         --convert-to xlsx \
         ./target.xls \
