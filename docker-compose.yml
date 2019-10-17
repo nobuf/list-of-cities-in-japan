@@ -5,7 +5,7 @@ services:
     volumes:
       - data:/data
   app:
-    image: node:8.1-alpine
+    image: node:10-alpine
     volumes:
       - .:/app:cached
       - data:/data
