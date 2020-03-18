@@ -9,7 +9,7 @@ const LANGLINKS_SERVER_ENDPOINT = process.env.LANGLINKS_SERVER_ENDPOINT
 const cityNameAliases = {
   // key: aliases
   // value: name appeared on Wikipedia entry
-  '梼原町': '檮原町'
+  梼原町: '檮原町'
 }
 
 const cityName = (input) => {
@@ -33,7 +33,7 @@ const transformShiteiToshi = csv.transform((record) => {
 })
 
 const skipShiteiToshi = () => {
-  const transformer = new Transform({objectMode: true})
+  const transformer = new Transform({ objectMode: true })
   transformer._transform = (record, encoding, callback) => {
     if (!record.special_district_ja) {
       // skip if record has only city name it will be duplicated
@@ -56,7 +56,7 @@ const transformRegularCities = csv.transform((record) => {
 })
 
 const skipPrefecture = () => {
-  const transformer = new Transform({objectMode: true})
+  const transformer = new Transform({ objectMode: true })
   transformer._transform = (record, encoding, callback) => {
     if (!record.city_ja) {
       callback(null, null)
@@ -68,7 +68,7 @@ const skipPrefecture = () => {
 }
 
 const possibleEntryNames = (record) => {
-  let names = []
+  const names = []
   if (record.special_district_ja) {
     names.push(record.special_district_ja + '_(' + record.city_ja + ')')
     names.push(record.special_district_ja)

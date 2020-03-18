@@ -11,7 +11,7 @@ RUN apt-get update \
 # (No English page available)
 #
 # `tail -n +6` means skipping the first 5 lines (kind of header information)
-RUN curl -o target.xls http://www.soumu.go.jp/main_content/000618153.xls \
+RUN curl -o target.xls -L http://www.soumu.go.jp/main_content/000618153.xls \
     && libreoffice --headless \
         --convert-to xlsx \
         ./target.xls \
