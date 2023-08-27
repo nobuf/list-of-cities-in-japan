@@ -1,20 +1,18 @@
 # List of Cities in Japan
 
-A script that generates a list of cities/towns in Japan based on the official [都道府県コード及び市区町村コード](http://www.soumu.go.jp/denshijiti/code.html) version 2019/05/01. It includes English names.
+A script that generates a list of cities/towns in Japan based on the official [都道府県コード及び市区町村コード](http://www.soumu.go.jp/denshijiti/code.html) version 2023/04/01. It includes English names.
+
+## npm audit fix
+
+```shell
+docker run -v "$PWD":/usr/src/app -w /usr/src/app node:8.17-alpine npm audit fix
+```
 
 ## Build
 
 ```shell
-docker --version
-Docker version 19.03.1, build 74b1e89
-
-docker-compose --version
-docker-compose version 1.24.1, build 4667896b
-```
-
-```shell
 # https://github.com/nobuf/langlinks-server must be up and running
-curl -v http://localhost:8080
+curl -v http://127.0.0.1:8080
 #
 git clone https://github.com/nobuf/list-of-cities-in-japan.git
 cd list-of-cities-in-japan
@@ -25,7 +23,7 @@ ls -l build
 ## Download
 
 - [build/prefectures.csv](build/prefectures.csv)
-- [build/cities_in_japan_2019.csv](build/cities_in_japan_2019.csv)
+- [build/cities_in_japan_2023.csv](build/cities_in_japan_2023.csv)
 
 ## Column Reference
 
@@ -36,7 +34,7 @@ ls -l build
 - `prefecture_en` — Name in English
 - `prefecture_ja` — Name in Japanese
 
-### cities_in_japan_2018.csv
+### cities_in_japan_*.csv
 
 - `id` — 5 digits code that represents the city/town (市区町村)
 - `prefecture_id` — 2 digits prefecture ID

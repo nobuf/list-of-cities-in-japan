@@ -100,8 +100,11 @@ const addLangLinks = () => {
     Promise.all(requests)
       .then((responses) => {
         const data = responses.find(data => data.en)
-        if (!data) throw new Error('city name in English not found')
-        record.city_en = data.en
+        if (data) {
+          record.city_en = data.en
+        } else {
+          console.error(`city name in English is not found for ${record.city_ja}`)
+        }
         callback(null, record)
       })
       .catch((reason) => {
