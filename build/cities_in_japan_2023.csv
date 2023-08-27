@@ -1,5 +1,15 @@
 id,prefecture_id,city_en,city_ja,special_district_ja
 01100,01,Sapporo,札幌市,
+01101,01,"Chūō-ku, Sapporo",札幌市,中央区
+01102,01,"Kita-ku, Sapporo",札幌市,北区
+01103,01,"Higashi-ku, Sapporo",札幌市,東区
+01104,01,"Shiroishi-ku, Sapporo",札幌市,白石区
+01105,01,"Toyohira-ku, Sapporo",札幌市,豊平区
+01106,01,"Minami-ku, Sapporo",札幌市,南区
+01107,01,"Nishi-ku, Sapporo",札幌市,西区
+01108,01,"Atsubetsu-ku, Sapporo",札幌市,厚別区
+01109,01,"Teine-ku, Sapporo",札幌市,手稲区
+01110,01,"Kiyota-ku, Sapporo",札幌市,清田区
 01202,01,Hakodate,函館市,
 01203,01,Otaru,小樽市,
 01204,01,Asahikawa,旭川市,
@@ -258,6 +268,11 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 03507,03,"Hirono, Iwate",洋野町,
 03524,03,"Ichinohe, Iwate",一戸町,
 04100,04,Sendai,仙台市,
+04101,04,"Aoba-ku, Sendai",仙台市,青葉区
+04102,04,"Miyagino-ku, Sendai",仙台市,宮城野区
+04103,04,"Wakabayashi-ku, Sendai",仙台市,若林区
+04104,04,"Taihaku-ku, Sendai",仙台市,太白区
+04105,04,"Izumi-ku, Sendai",仙台市,泉区
 04202,04,Ishinomaki,石巻市,
 04203,04,Shiogama,塩竈市,
 04205,04,Kesennuma,気仙沼市,
@@ -516,6 +531,16 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 10524,10,"Ōizumi, Gunma",大泉町,
 10525,10,"Ōra, Gunma",邑楽町,
 11100,11,Saitama (city),さいたま市,
+11101,11,"Nishi-ku, Saitama",さいたま市,西区
+11102,11,"Kita-ku, Saitama",さいたま市,北区
+11103,11,"Ōmiya-ku, Saitama",さいたま市,大宮区
+11104,11,"Minuma-ku, Saitama",さいたま市,見沼区
+11105,11,"Chūō-ku, Saitama",さいたま市,中央区
+11106,11,"Sakura-ku, Saitama",さいたま市,桜区
+11107,11,"Urawa-ku, Saitama",さいたま市,浦和区
+11108,11,"Minami-ku, Saitama",さいたま市,南区
+11109,11,"Midori-ku, Saitama",さいたま市,緑区
+11110,11,"Iwatsuki-ku, Saitama",さいたま市,岩槻区
 11201,11,"Kawagoe, Saitama",川越市,
 11202,11,Kumagaya,熊谷市,
 11203,11,"Kawaguchi, Saitama",川口市,
@@ -579,6 +604,12 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 11464,11,"Sugito, Saitama",杉戸町,
 11465,11,"Matsubushi, Saitama",松伏町,
 12100,12,Chiba (city),千葉市,
+12101,12,"Chūō-ku, Chiba",千葉市,中央区
+12102,12,Hanamigawa-ku,千葉市,花見川区
+12103,12,Inage-ku,千葉市,稲毛区
+12104,12,Wakaba-ku,千葉市,若葉区
+12105,12,"Midori-ku, Chiba",千葉市,緑区
+12106,12,Mihama-ku,千葉市,美浜区
 12202,12,Chōshi,銚子市,
 12203,12,"Ichikawa, Chiba",市川市,
 12204,12,Funabashi,船橋市,
@@ -695,8 +726,36 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 13402,13,"Aogashima, Tokyo",青ヶ島村,
 13421,13,"Ogasawara, Tokyo",小笠原村,
 14100,14,Yokohama,横浜市,
+14101,14,"Tsurumi-ku, Yokohama",横浜市,鶴見区
+14102,14,"Kanagawa-ku, Yokohama",横浜市,神奈川区
+14103,14,"Nishi-ku, Yokohama",横浜市,西区
+14104,14,"Naka-ku, Yokohama",横浜市,中区
+14105,14,"Minami-ku, Yokohama",横浜市,南区
+14106,14,"Hodogaya-ku, Yokohama",横浜市,保土ケ谷区
+14107,14,"Isogo-ku, Yokohama",横浜市,磯子区
+14108,14,"Kanazawa-ku, Yokohama",横浜市,金沢区
+14109,14,"Kōhoku-ku, Yokohama",横浜市,港北区
+14110,14,"Totsuka-ku, Yokohama",横浜市,戸塚区
+14111,14,"Kōnan-ku, Yokohama",横浜市,港南区
+14112,14,"Asahi-ku, Yokohama",横浜市,旭区
+14113,14,"Midori-ku, Yokohama",横浜市,緑区
+14114,14,"Seya-ku, Yokohama",横浜市,瀬谷区
+14115,14,"Sakae-ku, Yokohama",横浜市,栄区
+14116,14,"Izumi-ku, Yokohama",横浜市,泉区
+14117,14,"Aoba-ku, Yokohama",横浜市,青葉区
+14118,14,"Tsuzuki-ku, Yokohama",横浜市,都筑区
 14130,14,"Kawasaki, Kanagawa",川崎市,
+14131,14,"Kawasaki-ku, Kawasaki",川崎市,川崎区
+14132,14,"Saiwai-ku, Kawasaki",川崎市,幸区
+14133,14,"Nakahara-ku, Kawasaki",川崎市,中原区
+14134,14,"Takatsu-ku, Kawasaki",川崎市,高津区
+14135,14,"Tama-ku, Kawasaki",川崎市,多摩区
+14136,14,"Miyamae-ku, Kawasaki",川崎市,宮前区
+14137,14,"Asao-ku, Kawasaki",川崎市,麻生区
 14150,14,Sagamihara,相模原市,
+14151,14,"Midori-ku, Sagamihara",相模原市,緑区
+14152,14,"Chūō-ku, Sagamihara",相模原市,中央区
+14153,14,"Minami-ku, Sagamihara",相模原市,南区
 14201,14,Yokosuka,横須賀市,
 14203,14,Hiratsuka,平塚市,
 14204,14,Kamakura,鎌倉市,
@@ -728,6 +787,14 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 14401,14,"Aikawa, Kanagawa",愛川町,
 14402,14,"Kiyokawa, Kanagawa",清川村,
 15100,15,Niigata (city),新潟市,
+15101,15,"Kita-ku, Niigata",新潟市,北区
+15102,15,"Higashi-ku, Niigata",新潟市,東区
+15103,15,"Chūō-ku, Niigata",新潟市,中央区
+15104,15,"Kōnan-ku, Niigata",新潟市,江南区
+15105,15,"Akiha-ku, Niigata",新潟市,秋葉区
+15106,15,"Minami-ku, Niigata",新潟市,南区
+15107,15,"Nishi-ku, Niigata",新潟市,西区
+15108,15,"Nishikan-ku, Niigata",新潟市,西蒲区
 15202,15,"Nagaoka, Niigata",長岡市,
 15204,15,"Sanjō, Niigata",三条市,
 15205,15,"Kashiwazaki, Niigata",柏崎市,
@@ -955,7 +1022,13 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 21521,21,"Mitake, Gifu",御嵩町,
 21604,21,"Shirakawa, Gifu (village)",白川村,
 22100,22,Shizuoka (city),静岡市,
+22101,22,"Aoi-ku, Shizuoka",静岡市,葵区
+22102,22,"Suruga-ku, Shizuoka",静岡市,駿河区
+22103,22,"Shimizu-ku, Shizuoka",静岡市,清水区
 22130,22,Hamamatsu,浜松市,
+22138,22,Chūō-ku,浜松市,中央区
+22139,22,,浜松市,浜名区
+22140,22,Tenryū Ward,浜松市,天竜区
 22203,22,Numazu,沼津市,
 22205,22,Atami,熱海市,
 22206,22,"Mishima, Shizuoka",三島市,
@@ -990,6 +1063,22 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 22429,22,Kawanehon,川根本町,
 22461,22,"Mori, Shizuoka",森町,
 23100,23,Nagoya,名古屋市,
+23101,23,"Chikusa-ku, Nagoya",名古屋市,千種区
+23102,23,"Higashi-ku, Nagoya",名古屋市,東区
+23103,23,"Kita-ku, Nagoya",名古屋市,北区
+23104,23,"Nishi-ku, Nagoya",名古屋市,西区
+23105,23,"Nakamura-ku, Nagoya",名古屋市,中村区
+23106,23,"Naka-ku, Nagoya",名古屋市,中区
+23107,23,Shōwa-ku,名古屋市,昭和区
+23108,23,"Mizuho-ku, Nagoya",名古屋市,瑞穂区
+23109,23,"Atsuta-ku, Nagoya",名古屋市,熱田区
+23110,23,"Nakagawa-ku, Nagoya",名古屋市,中川区
+23111,23,"Minato-ku, Nagoya",名古屋市,港区
+23112,23,"Minami-ku, Nagoya",名古屋市,南区
+23113,23,"Moriyama-ku, Nagoya",名古屋市,守山区
+23114,23,"Midori-ku, Nagoya",名古屋市,緑区
+23115,23,"Meitō-ku, Nagoya",名古屋市,名東区
+23116,23,Tenpaku-ku,名古屋市,天白区
 23201,23,Toyohashi,豊橋市,
 23202,23,"Okazaki, Aichi",岡崎市,
 23203,23,"Ichinomiya, Aichi",一宮市,
@@ -1092,6 +1181,17 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 25442,25,"Kōra, Shiga",甲良町,
 25443,25,"Taga, Shiga",多賀町,
 26100,26,Kyoto,京都市,
+26101,26,"Kita-ku, Kyoto",京都市,北区
+26102,26,"Kamigyō-ku, Kyoto",京都市,上京区
+26103,26,"Sakyō-ku, Kyoto",京都市,左京区
+26104,26,"Nakagyō-ku, Kyoto",京都市,中京区
+26105,26,"Higashiyama-ku, Kyoto",京都市,東山区
+26106,26,"Shimogyō-ku, Kyoto",京都市,下京区
+26107,26,"Minami-ku, Kyoto",京都市,南区
+26108,26,"Ukyō-ku, Kyoto",京都市,右京区
+26109,26,"Fushimi-ku, Kyoto",京都市,伏見区
+26110,26,"Yamashina-ku, Kyoto",京都市,山科区
+26111,26,"Nishikyō-ku, Kyoto",京都市,西京区
 26201,26,"Fukuchiyama, Kyoto",福知山市,
 26202,26,Maizuru,舞鶴市,
 26203,26,"Ayabe, Kyoto",綾部市,
@@ -1118,7 +1218,38 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 26463,26,"Ine, Kyoto",伊根町,
 26465,26,"Yosano, Kyoto",与謝野町,
 27100,27,Osaka,大阪市,
+27102,27,"Miyakojima-ku, Osaka",大阪市,都島区
+27103,27,"Fukushima-ku, Osaka",大阪市,福島区
+27104,27,"Konohana-ku, Osaka",大阪市,此花区
+27106,27,"Nishi-ku, Osaka",大阪市,西区
+27107,27,"Minato-ku, Osaka",大阪市,港区
+27108,27,"Taishō-ku, Osaka",大阪市,大正区
+27109,27,"Tennōji-ku, Osaka",大阪市,天王寺区
+27111,27,"Naniwa-ku, Osaka",大阪市,浪速区
+27113,27,"Nishiyodogawa-ku, Osaka",大阪市,西淀川区
+27114,27,"Higashiyodogawa-ku, Osaka",大阪市,東淀川区
+27115,27,"Higashinari-ku, Osaka",大阪市,東成区
+27116,27,"Ikuno-ku, Osaka",大阪市,生野区
+27117,27,"Asahi-ku, Osaka",大阪市,旭区
+27118,27,"Jōtō-ku, Osaka",大阪市,城東区
+27119,27,"Abeno-ku, Osaka",大阪市,阿倍野区
+27120,27,"Sumiyoshi-ku, Osaka",大阪市,住吉区
+27121,27,"Higashisumiyoshi-ku, Osaka",大阪市,東住吉区
+27122,27,"Nishinari-ku, Osaka",大阪市,西成区
+27123,27,"Yodogawa-ku, Osaka",大阪市,淀川区
+27124,27,"Tsurumi-ku, Osaka",大阪市,鶴見区
+27125,27,"Suminoe-ku, Osaka",大阪市,住之江区
+27126,27,"Hirano-ku, Osaka",大阪市,平野区
+27127,27,"Kita-ku, Osaka",大阪市,北区
+27128,27,"Chūō-ku, Osaka",大阪市,中央区
 27140,27,Sakai,堺市,
+27141,27,"Sakai-ku, Sakai",堺市,堺区
+27142,27,"Naka-ku, Sakai",堺市,中区
+27143,27,"Higashi-ku, Sakai",堺市,東区
+27144,27,"Nishi-ku, Sakai",堺市,西区
+27145,27,"Minami-ku, Sakai",堺市,南区
+27146,27,"Kita-ku, Sakai",堺市,北区
+27147,27,"Mihara-ku, Sakai",堺市,美原区
 27202,27,"Kishiwada, Osaka",岸和田市,
 27203,27,Toyonaka,豊中市,
 27204,27,"Ikeda, Osaka",池田市,
@@ -1161,6 +1292,15 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 27382,27,"Kanan, Osaka",河南町,
 27383,27,Chihayaakasaka,千早赤阪村,
 28100,28,Kobe,神戸市,
+28101,28,"Higashinada-ku, Kobe",神戸市,東灘区
+28102,28,"Nada-ku, Kobe",神戸市,灘区
+28105,28,"Hyōgo-ku, Kobe",神戸市,兵庫区
+28106,28,"Nagata-ku, Kobe",神戸市,長田区
+28107,28,"Suma-ku, Kobe",神戸市,須磨区
+28108,28,"Tarumi-ku, Kobe",神戸市,垂水区
+28109,28,"Kita-ku, Kobe",神戸市,北区
+28110,28,"Chūō-ku, Kobe",神戸市,中央区
+28111,28,"Nishi-ku, Kobe",神戸市,西区
 28201,28,Himeji,姫路市,
 28202,28,Amagasaki,尼崎市,
 28203,28,"Akashi, Hyōgo",明石市,
@@ -1309,6 +1449,10 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 32527,32,"Chibu, Shimane",知夫村,
 32528,32,"Okinoshima, Shimane",隠岐の島町,
 33100,33,Okayama,岡山市,
+33101,33,"Kita-ku, Okayama",岡山市,北区
+33102,33,"Naka-ku, Okayama",岡山市,中区
+33103,33,"Higashi-ku, Okayama",岡山市,東区
+33104,33,"Minami-ku, Okayama",岡山市,南区
 33202,33,Kurashiki,倉敷市,
 33203,33,Tsuyama,津山市,
 33204,33,Tamano,玉野市,
@@ -1336,6 +1480,14 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 33666,33,"Misaki, Okayama",美咲町,
 33681,33,Kibichūō,吉備中央町,
 34100,34,Hiroshima,広島市,
+34101,34,"Naka-ku, Hiroshima",広島市,中区
+34102,34,"Higashi-ku, Hiroshima",広島市,東区
+34103,34,"Minami-ku, Hiroshima",広島市,南区
+34104,34,"Nishi-ku, Hiroshima",広島市,西区
+34105,34,"Asaminami-ku, Hiroshima",広島市,安佐南区
+34106,34,"Asakita-ku, Hiroshima",広島市,安佐北区
+34107,34,"Aki-ku, Hiroshima",広島市,安芸区
+34108,34,"Saeki-ku, Hiroshima",広島市,佐伯区
 34202,34,"Kure, Hiroshima",呉市,
 34203,34,"Takehara, Hiroshima",竹原市,
 34204,34,"Mihara, Hiroshima",三原市,
@@ -1473,7 +1625,21 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 39427,39,"Mihara, Kōchi",三原村,
 39428,39,"Kuroshio, Kōchi",黒潮町,
 40100,40,Kitakyushu,北九州市,
+40101,40,"Moji-ku, Kitakyūshū",北九州市,門司区
+40103,40,"Wakamatsu-ku, Kitakyūshū",北九州市,若松区
+40105,40,"Tobata-ku, Kitakyūshū",北九州市,戸畑区
+40106,40,"Kokurakita-ku, Kitakyūshū",北九州市,小倉北区
+40107,40,"Kokuraminami-ku, Kitakyūshū",北九州市,小倉南区
+40108,40,"Yahatahigashi-ku, Kitakyūshū",北九州市,八幡東区
+40109,40,"Yahatanishi-ku, Kitakyūshū",北九州市,八幡西区
 40130,40,Fukuoka,福岡市,
+40131,40,"Higashi-ku, Fukuoka",福岡市,東区
+40132,40,"Hakata-ku, Fukuoka",福岡市,博多区
+40133,40,"Chūō-ku, Fukuoka",福岡市,中央区
+40134,40,"Minami-ku, Fukuoka",福岡市,南区
+40135,40,"Nishi-ku, Fukuoka",福岡市,西区
+40136,40,"Jōnan-ku, Fukuoka",福岡市,城南区
+40137,40,"Sawara-ku, Fukuoka",福岡市,早良区
 40202,40,"Ōmuta, Fukuoka",大牟田市,
 40203,40,Kurume,久留米市,
 40204,40,"Nōgata, Fukuoka",直方市,
@@ -1574,6 +1740,11 @@ id,prefecture_id,city_en,city_ja,special_district_ja
 42391,42,"Saza, Nagasaki",佐々町,
 42411,42,Shin-Kamigotō,新上五島町,
 43100,43,Kumamoto,熊本市,
+43101,43,"Chūō-ku, Kumamoto",熊本市,中央区
+43102,43,"Higashi-ku, Kumamoto",熊本市,東区
+43103,43,"Nishi-ku, Kumamoto",熊本市,西区
+43104,43,"Minami-ku, Kumamoto",熊本市,南区
+43105,43,"Kita-ku, Kumamoto",熊本市,北区
 43202,43,Yatsushiro,八代市,
 43203,43,"Hitoyoshi, Kumamoto",人吉市,
 43204,43,"Arao, Kumamoto",荒尾市,
