@@ -27,8 +27,8 @@ const transformShiteiToshi = csv.transform((record) => {
     id: record[0],
     prefecture: null,
     city_en: null,
-    city_ja: cityName(record[1]),
-    special_district_ja: specialDistrictName(record[1])
+    city_ja: cityName(record[2]),
+    special_district_ja: specialDistrictName(record[2])
   }
 })
 
@@ -103,7 +103,7 @@ const addLangLinks = () => {
         if (data) {
           record.city_en = data.en
         } else {
-          console.error(`city name in English is not found for ${record.city_ja}`)
+          console.error(`city name in English is not found for ${JSON.stringify(record)}`)
         }
         callback(null, record)
       })
