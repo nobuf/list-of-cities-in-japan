@@ -16,14 +16,14 @@ curl -v http://127.0.0.1:8080
 #
 git clone https://github.com/nobuf/list-of-cities-in-japan.git
 cd list-of-cities-in-japan
-docker-compose up --build
+docker compose up --build
 ls -l build
 ```
 
 ## Download
 
 - [build/prefectures.csv](build/prefectures.csv)
-- [build/cities_in_japan_2023.csv](build/cities_in_japan_2023.csv)
+- [build/cities_in_japan_2024.csv](build/cities_in_japan_2024.csv)
 
 ## Column Reference
 
