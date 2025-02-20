@@ -1,6 +1,6 @@
 # List of Cities in Japan
 
-A script that generates a list of cities/towns in Japan based on the official [都道府県コード及び市区町村コード](http://www.soumu.go.jp/denshijiti/code.html) version 2023/04/01. It includes English names.
+A script that generates a list of cities/towns in Japan based on the official [都道府県コード及び市区町村コード](http://www.soumu.go.jp/denshijiti/code.html). It includes English names.
 
 ## npm audit fix
 
